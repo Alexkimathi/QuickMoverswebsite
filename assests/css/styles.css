@@ -53,21 +53,27 @@
 }
 .sect-2 {
     display: flex;
+    margin-top: 40px;
+    
 }
 
 .sect-2 > .Hustle {
-    margin: 50px;
+    margin: 40px;
+    
 }
 
 .sect-2 > .Hustle h1{
     font-size: 50px;
     font-family: 'Poppins';
     font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .sect-2 > .Hustle p{
     font-size: 20px;
     font-family: 'Poppins';
     font-weight: 100;
+    margin-bottom: 50px;
 
 }
 .sect-2 > .Hustle button{
@@ -86,7 +92,6 @@
     justify-content: center;
     color:#FAFF00;
     
-    
 }
 
 .line{
@@ -94,6 +99,128 @@
     width: 112px;
     height: 40px;
     border-bottom: 4px solid black;
-    position: absolute;
+    position:relative
     }
+
+.card-items{
+    height: 800px;
+    background-color: rgb(220,220,220);
+} 
+
+.cards{
+    display: flex;
+}
+
+.card-items > .movers > h1{
+      font-size: 40px;
+    margin-left: 100px;
+    font-weight: 200;
+    font-family: 'Poppins';
+    
+    }  
+
+.card-items > .movers > .line-2{
+    width: 112px;
+    height: 40px;
+    border-bottom: 4px solid black;
+    position:relative;
+    margin-left: 100px;
+   
+    }
+
+
+    .sect-3{
+        background-color: rgb(220,220,220);
+        height: 900px;
+       margin-top: 10px;
+      
+    }
+ 
+
+ .sect-3 > .card > .card-text > h1{
+     font-size: 25px;
+     margin-left: 10px;
+
+ }
+ .sect-3 h1{
+    font-size: 40px;
+    margin-left: 200px; 
+    font-weight: 200;
+ } 
+ .sect-3 .line-2{
+    width: 112px;
+    height: 40px;  
+    border-bottom: 4px solid black;
+    position:relative;
+    margin-top: 150px;
+    margin-left: 200px;
+ } 
+
+
+
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 80px 50px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 24px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    margin: 15px;
+    text-align: center;
+    transition: 0.3s;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 200px;
+   
+    
+}
+.card-img{
+    grid-area: image;
+    background: url("/assests/images/ehem\ 1.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    background-position: center;
+
+}
+.card-text{
+    grid-area: text;
+
+}
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card-stats .stat .value{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 5px;
+    
+
+}
+.card-stats .border{
+    height: auto;
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+    
+}
+
+
+
+    
+
+
+
+
+  
+
+  
+  
 
