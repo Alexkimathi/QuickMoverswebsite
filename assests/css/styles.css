@@ -51,3 +51,49 @@
     font-weight: 400;
 
 }
+.sect-2 {
+    display: flex;
+}
+
+.sect-2 > .Hustle {
+    margin: 50px;
+}
+
+.sect-2 > .Hustle h1{
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+.sect-2 > .Hustle p{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 100;
+
+}
+.sect-2 > .Hustle button{
+    padding: 10px;
+    border-top-right-radius: 15px;
+    background-color: black;
+    color: #FAFF00;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    content: "\2192";
+}
+
+.sect-2 > .Hustle span{
+    content: "\2192";
+    justify-content: center;
+    color:#FAFF00;
+    
+    
+}
+
+.line{
+   
+    width: 112px;
+    height: 40px;
+    border-bottom: 4px solid black;
+    position: absolute;
+    }
+
