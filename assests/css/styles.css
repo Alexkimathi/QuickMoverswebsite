@@ -1,0 +1,53 @@
+*{
+    margin: o;
+    padding: 0;
+}
+.sect-1{
+    background-image: url("../images/moving\ 1.png");
+    height: 800px;
+    width:auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+
+}
+.sect-1 > .logo >ul{ 
+    margin-left: 500px;
+   
+}
+.sect-1 > .logo > ul > li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+    margin-top: 30px;
+  
+    
+}
+
+.sect-1 > .logo > ul > li > .button > .btn-signup{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.sect-1 > .sect1-content > h1{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 90px;
+    color: #FAFF00;
+    font-family: 'Poppins';
+  
+    
+
+}
+.sect-1 > .sect1-content > p{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: 400;
+
+}
