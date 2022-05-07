@@ -48,7 +48,7 @@
 
 /*start of deatils section*/
 .details{
-    background-color: grey;
+    background-color:lightgrey;
 
 }
 .details .images{
@@ -209,7 +209,7 @@ width:auto;
 
 .feature{
     height: 300px;
-    width: 670px;
+    width: 710px;
     background-color: white;
     margin-top: 25px;
     border-radius: 20px;
@@ -241,7 +241,7 @@ ul.checkmark li {
 ul.checkmark li:before {
   content: " "; 
   display: block;
-  border: solid 0.8em #660a5e;
+  border: solid 0.8em orange;
   border-radius: .8em;
   height: 0;
   width: 0;
@@ -301,6 +301,7 @@ ul.checkmark li:after {
     margin-bottom: 100px;
     font-weight: 200;
     font-family: 'Poppins';
+    margin-top: 20px;
     
     }  
 
@@ -380,3 +381,80 @@ width:auto;
 }
 
 /*end of similar listing card*/
+
+
+.footer{
+    background-color: black;
+    height: 400px;
+    margin-top: 100px;
+}
+.footer .footer-text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer >.footer-text > h1{
+   font-size: 30px;
+   font-weight: 600;
+   color: white;
+   padding-left: 100px;
+   padding-top: 50px;
+}
+
+.footer >.footer-text > h1 > span{
+   color: #FAFF00;
+   margin-left: 30px;
+ }
+.footer .footer-text .btn-learn button{
+    padding: 20px;
+    border-top-right-radius: 15px;
+    background-color:#FAFF00;
+    color: black;
+    margin-top: 50px;
+    margin-right: 300px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    content: "\2192";
+   
+}
+.footer .social{
+    margin-top: 70px;
+}
+
+.footer > .social > .icon-links {
+    margin-left: 100px;
+    color: white;
+    
+   
+}
+.footer > .social > .icon-links a{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+   text-decoration: none;
+   font-size: 30px;
+}
+.footer  .social{
+    display: flex;
+
+}
+.footer > .social> .heading {
+    margin-left: 250px;
+    
+
+}
+.footer > .social> .heading h1{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 8px;
+    
+    
+
+}
+.footer > .social> .heading li{
+    font-size: 18px;
+    color: white;
+
+}
