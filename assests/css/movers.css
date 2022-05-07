@@ -4,7 +4,7 @@
    
 
 }
-
+/*start of hero section*/
 .hero{
     background-color: black;
     height: 25vh;
@@ -41,6 +41,12 @@
     
 
 }
+
+/*end of hero section*/
+
+
+
+/*start of deatils section*/
 .details{
     background-color: grey;
 
@@ -62,11 +68,11 @@
 }
 .details > .images > .image > img{
     height: 500px;
-    width: 600px;
+    width: 700px;
     margin-top: 50px;
     margin-left: 100px;
 }
-
+/*start of information card*/
 .card{
     background-color: white;
     height: 500px;
@@ -94,6 +100,10 @@
     padding-left: 15px;
     
 }
+
+/*end  of details card*/
+
+/*start of smaller card*/
 .details .cards{
     display: flex;
     margin-left: 100px;
@@ -101,20 +111,22 @@
 }
 .details img{
     height: 70px;
-    width: 70px;
+    width: 85px;
     margin-top: 10px;
     margin-right:  18px;
   
 
 }
 
+/*end of small card*/
 
+/*start of details card */
 .cardd{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 600px);
-    grid-template-rows: 10px 80px 50px;
+    grid-template-columns: repeat(auto-fill, 700px);
+    grid-template-rows: 10px 50px 50px;
     grid-template-areas: "image" "text" "stats";
-    border-radius: 24px;
+    border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     margin-top: 30px;
@@ -122,15 +134,18 @@
     margin-bottom: 10px;
     text-align: center;
     transition: 0.3s;
-    width: 600px;
+    width: 700px;
     justify-content:space-evenly;
 
     
 }
+
 .card-text h1{
     grid-area: text;
     font-size: 20px;
     margin-top: 25px;
+    
+    
 }
 
 .card-stats{
@@ -164,9 +179,13 @@ width:auto;
 }
 
 
+/*end of details card*/
+
+
+/*start of Description card*/
 .desc{
   background-color: white;
-  width: 570px;
+  width: 670px;
   height: 400px;
   margin-left: 100px;
   border-radius: 20px;
@@ -180,15 +199,20 @@ width:auto;
     color: black;
     padding-top: 30px;
     font-size: 18px;
+    font-family: 'Poppins';
 }
+
+/*end of Description card*/
+
+
+/*start of features  card*/
 
 .feature{
     height: 300px;
-    width: 570px;
+    width: 670px;
     background-color: white;
     margin-top: 25px;
     border-radius: 20px;
-    padding: 20px;
     margin-left: 100px;
     
 }
@@ -246,14 +270,20 @@ ul.checkmark li:after {
 }
 
 
+/*end of features card*/
 
 
+
+
+
+
+/*start of similiar listings*/
 
 .card-items{
     /* height:max-content; */
     background-color: rgb(220,220,220);
     justify-content: space-evenly;
-    height: 160vh;
+    height: 100vh;
     margin: 0;
     
 } 
@@ -290,7 +320,7 @@ ul.checkmark li:after {
 .card-2{
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: 395px 60px 40px;
+    grid-template-rows: 320px 60px 40px;
     grid-template-areas: "image" "text" "stats";
     border-radius: 24px;
     background-color: white;
@@ -315,10 +345,11 @@ ul.checkmark li:after {
     grid-area: text;
     font-size: 20px;
     margin-top: 25px;
+    align-items: flex-start;
 
 }
 
-.card-stats{
+.card-stats-1{
     grid-area: stats;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -327,7 +358,7 @@ ul.checkmark li:after {
     border-bottom-right-radius: 5px;
     
 }
-.card-stats .stat .value{
+.card-stats-1 .stat .value{
     display:inline;
     align-items: center;
     justify-content: center;
@@ -335,7 +366,7 @@ ul.checkmark li:after {
     
 
 }
-.card-stats .border{
+.card-stats-1 .border{
     height: auto;
     border-left: 1px solid rgba(0,0,0,0.9);
     border-right: 1px solid rgba(0,0,0,0.9);
@@ -343,7 +374,9 @@ ul.checkmark li:after {
     
     
 }
-.card-stats .border-1{
+.card-stats-1 .border-1{
 border-top: 1px solid rgba(0,0,0,0.9);
 width:auto;
 }
+
+/*end of similar listing card*/
