@@ -26,6 +26,35 @@
   
     
 }
+.sect-1 > .logo > ul > a > li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-weight: 300;
+
+}
+.sect-1 > .logo > ul > a > li > .btn-signup{
+    background-color: #FAFF00;
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    margin-top: 30px;
+    border-radius: 6px;
+
+}
+
+.sect-1 > .logo > ul > a > li > .btn-login{
+    background-color:black;
+    font-size: 15px;
+    padding: 16px 32px;
+    color:#FAFF00;
+    margin-top: 30px;
+    border-radius: 6px;
+
+}
 
 .sect-1 > .logo > ul > li > .button > .btn-signup{
     font-size: 20px;
@@ -266,6 +295,8 @@ width:auto;
     color: white;
 
 }
+
+/*page two design starts here*/
 
 
     
