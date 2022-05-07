@@ -124,10 +124,7 @@
     transition: 0.3s;
     width: 600px;
     justify-content:space-evenly;
-  
 
-
-   
     
 }
 .card-text h1{
@@ -163,8 +160,24 @@
 }
 .card-stats .border-1{
 border-top: 1px solid rgba(0,0,0,0.9);
-width:auto;
+width:auto;    
+}
+
+
+.desc{
+  background-color: white;
+  width: 570px;
+  height: 400px;
+  margin-left: 100px;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 20px;
+
 
     
-    
+}
+.desc > p{
+    color: black;
+    padding-top: 30px;
+    font-size: 18px;
 }
