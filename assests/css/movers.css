@@ -4,6 +4,7 @@
    
 
 }
+
 /*start of hero section*/
 .hero{
     background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
@@ -305,18 +306,15 @@ ul.checkmark li:after {
     
     }  
 
+   
 .card-items > .movers > .line-2{
     width: 112px;
-    height: 40px;
-    border-bottom: 4px solid black;
+    height: 4px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
     position:relative;
     margin-left: 100px;
-   
+
     }
-
-
-
-
 
 .card-2{
     display: grid;
@@ -460,33 +458,7 @@ width:auto;
 
 }
 
-.card .form-group{
-    margin-top: 20px;
-    margin-left: 10px;
-}
 
-.card .form-control{
-   padding-left: 90px;
-   padding-bottom: 30px;
-   border-radius: 10px;
-   
-}
-.card .input{
-    font-size: 200px;
- }
-
- input[type=text-1], select {
-    width: 100%;
-    padding: 12px; 
-    border: 1px solid #ccc;
-    border-radius: 10px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical;
-    
-    background-color: grey;
-  }
  input[type=text], select, textarea {
     width: 100%;
     padding: 12px; 
@@ -501,23 +473,22 @@ width:auto;
   }
   
   
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+  .container-card {
+    border-radius: 10px;
+    background-color: white;
     padding: 20px;
   }
-.action-page .btn-learn{
+.container-card .btn-learn{
+    display: flex;
+    padding: 10px 78px;
+    text-align: center;
+    border-top-right-radius: 15px;
     background-color: black;
-    color: white;
-    padding: 20px;
-    font-size: 15px;
+    color: #FAFF00;
+    font-size: 18px;
     font-family: 'Poppins';
-    border-top-right-radius: 20px;
-    margin-top: 420px;
-    margin-left: 10px;
-    padding-right: 90px;
-    padding-left: 90px;
-    justify-items: center;
+    font-weight: 100;
+    content: "\2192";
+    margin-top: 20px;
     
 }
