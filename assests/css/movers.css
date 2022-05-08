@@ -6,7 +6,7 @@
 }
 /*start of hero section*/
 .hero{
-    background-color: black;
+    background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
     height: 25vh;
   
 }
@@ -384,9 +384,10 @@ width:auto;
 
 
 .footer{
-    background-color: black;
+    
     height: 400px;
     margin-top: 100px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
 }
 .footer .footer-text{
     display: flex;
@@ -457,4 +458,66 @@ width:auto;
     font-size: 18px;
     color: white;
 
+}
+
+.card .form-group{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.card .form-control{
+   padding-left: 90px;
+   padding-bottom: 30px;
+   border-radius: 10px;
+   
+}
+.card .input{
+    font-size: 200px;
+ }
+
+ input[type=text-1], select {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    
+    background-color: grey;
+  }
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 1px; 
+    resize: vertical;
+    font-weight: 900;
+    color: black;
+  }
+  
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.action-page .btn-learn{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    border-top-right-radius: 20px;
+    margin-top: 420px;
+    margin-left: 10px;
+    padding-right: 90px;
+    padding-left: 90px;
+    justify-items: center;
+    
 }
